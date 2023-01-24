@@ -1,0 +1,67 @@
+.pic {
+    margin: 50px;
+    object-fit: contain;
+    height: 40vh;
+    border-radius: 50%;
+}
+
+.welcome {
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+    position: fixed;
+}
+  
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+  
+nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+  
+nav > ul > li:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#projects h2 {
+    margin-bottom: 50px;
+}
+
+.project-div {
+    padding: 20px;
+    display: flex;
+}
+
+.project {
+    width: 200px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.project:hover {
+    width: 220px;
+    background-color: aqua;
+}
