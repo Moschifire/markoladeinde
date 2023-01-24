@@ -46,7 +46,7 @@ li > a {
 }
 
 #projects h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .project-div {
@@ -57,11 +57,12 @@ li > a {
 .project {
     width: 200px;
     padding: 5px;
+    margin: 20px;
     border: 2px solid black;
     border-radius: 10px;
 }
 
 .project:hover {
     width: 220px;
-    background-color: aqua;
+    background-color: #F7F7F7;
 }

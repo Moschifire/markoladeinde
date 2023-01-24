@@ -26,8 +26,13 @@ function App() {
                     </div>
                     <div className="project">
                         <h4>Random Quote Machine</h4>
-                        <p>This </p>
-                        <a href="https://booze.vercel.app/" className="btn btn-primary" target="_blank">Click here to visit</a>
+                        <p>This random quote machine was created with react using react cdn. When a user clicks new quote, the app randomly generates a new quote.</p>
+                        <a href="https://random-quote-machine-seps.vercel.app/" className="btn btn-primary" target="_blank">Click here to visit</a>
+                    </div>
+                    <div className="project">
+                        <h4>Drum Machine</h4>
+                        <p></p>
+                        <a href="" className="btn btn-primary" target="_blank">Click here to visit</a>
                     </div>
                 </div>
             </div>
