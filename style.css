@@ -1,5 +1,8 @@
-body {
-    width: 90vw;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    background-color: aliceblue;
 }
 
 .pic {
@@ -49,17 +52,15 @@ li > a {
     text-decoration: none;
 }
 
-#projects {
-    height: 100vh;
-}
-
 #projects h2 {
-    margin-bottom: 0 auto;
+    text-align: center;
 }
 
 .project-div {
     padding: 20px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 0 auto;
 }
 
@@ -67,11 +68,31 @@ li > a {
     width: 200px;
     padding: 5px;
     margin: 20px;
-    border: 2px solid black;
+    border: 2px solid greenyellow;
     border-radius: 10px;
 }
 
 .project:hover {
     width: 220px;
-    background-color: #F7F7F7;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact {
+    margin: 0 auto;
+}
+
+#location {
+    text-align: center;
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+}
+
+#icon:hover {
+    border: 1px solid greenyellow;
 }
