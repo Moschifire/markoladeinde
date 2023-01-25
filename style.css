@@ -1,7 +1,11 @@
+body {
+    width: 90vw;
+}
+
 .pic {
     margin: 50px;
     object-fit: contain;
-    height: 40vh;
+    height: 60vh;
     border-radius: 50%;
 }
 
@@ -45,13 +49,18 @@ li > a {
     text-decoration: none;
 }
 
+#projects {
+    height: 100vh;
+}
+
 #projects h2 {
-    margin-bottom: 30px;
+    margin-bottom: 0 auto;
 }
 
 .project-div {
     padding: 20px;
     display: flex;
+    margin: 0 auto;
 }
 
 .project {

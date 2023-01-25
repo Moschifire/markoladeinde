@@ -32,7 +32,7 @@ function App() {
                     <div className="project">
                         <h4>Drum Machine</h4>
                         <p></p>
-                        <a href="" className="btn btn-primary" target="_blank">Click here to visit</a>
+                        <a href="https://drum-machine-nu-ruddy.vercel.app/" className="btn btn-primary" target="_blank">Click here to visit</a>
                     </div>
                 </div>
             </div>
