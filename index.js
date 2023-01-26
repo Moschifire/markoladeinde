@@ -8,7 +8,7 @@ function App() {
                     <li><a href="#contact">Contact me</a></li>
                 </ul>
             </nav>
-            <div className="welcome text-center" id="welcome">
+            <div className="welcome text-center container" id="welcome">
                 <div>
                     <img className="pic" src="./picture.jpg" alt="" />
                 </div>
@@ -16,7 +16,7 @@ function App() {
                 <p>I am <strong>Mark Oladeinde</strong>, a skilled and versatile software engineer. I am competent in Web design as well as JavaScript and React JS. I am also skilled in bootstrap and SASS.</p>
                 <p>Scroll down to find some of my projects</p>
             </div>
-            <div id="projects" className="text-center">
+            <div id="projects" className="text-center section">
                 <h2>Projects</h2>
                 <div className="project-div">
                     <div className="project">

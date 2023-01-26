@@ -96,3 +96,29 @@ li > a {
 #icon:hover {
     border: 1px solid greenyellow;
 }
+
+@media (max-width: 1000px) {
+    .nav {
+        padding: 15px;
+    }
+    section {
+        padding: 3rem 0 2rem;
+    }
+    .container {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .project-div {
+        margin-top: 2rem !important;
+    }
+}
+@media (max-width: 400px) {
+    .nav {
+        padding: 11px;
+    }
+}
+@media (max-width: 360px) {
+    .project-div {
+        margin-top: 1rem !important;
+    }
+}
