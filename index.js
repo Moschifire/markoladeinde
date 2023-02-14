@@ -55,7 +55,7 @@ function App() {
                 <h2>Contact Me</h2>
                 <div id="location">
                     <p><i class="fa-solid fa-location-dot"></i> Lagos, Nigeria</p>
-                    <p><i class="fa-solid fa-envelope"></i> markoladeinde@gmail.com</p>
+                    <a className="email" href="mailto:markoladeinde@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> markoladeinde@gmail.com</a>
                 </div>
                 <div id="social">
                     <a id="icon" href="https://twitter.com/SchinoTheRapper" className="btn" target="_blank"><i class="fa-brands fa-twitter"></i></a>
