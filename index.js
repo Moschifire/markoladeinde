@@ -61,7 +61,7 @@ function App() {
                     <a id="icon" href="https://twitter.com/SchinoTheRapper" className="btn" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                     <a id="icon" href="https://github.com/Moschifire" className="btn" target="_blank"><i class="fa-brands fa-github"></i></a>
                     <a id="icon" href="https://www.linkedin.com/in/mark-oladeinde-aa21271b2/" className="btn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a id="icon" href="https://drive.google.com/file/d/1Nik9tLLAsWrL4RoBpHce3L2fq2naQbO4/view?usp=sharing" className="btn" target="_blank"><i class="fa-solid fa-file"></i></a>
+                    <a id="icon" href="https://drive.google.com/file/d/1TK0QAPoLZyPYpX22MOyJEzltATuZzQbT/view?usp=sharing" className="btn" target="_blank"><i class="fa-solid fa-file"></i></a>
                 </div>
             </div>
         </div>
