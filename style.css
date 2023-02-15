@@ -6,8 +6,8 @@
 }
 
 .imgDiv .pic {
-    width: 100vw
-    margin: 50px
+    width: 100vw;
+    margin: 50px;
  }
 
 .pic {
@@ -138,10 +138,16 @@ li > a {
     .nav {
         padding: 11px;
     }
+    .imgDiv {
+        margin: 50px;
+    }
 }
 @media (max-width: 360px) {
     .project-div {
         margin-top: 2rem !important;
         justify-content: space-evenly;
+    }
+    .imgDiv {
+        margin: 50px;
     }
 }
