@@ -5,8 +5,12 @@
     background-color: aliceblue;
 }
 
+.imgDiv .pic {
+    width: 100vw
+ }
+
 .pic {
-    margin: 50px;
+    margin: 0 auto;
     object-fit: cover;
     height: 60vh;
     border-radius: 50%;
