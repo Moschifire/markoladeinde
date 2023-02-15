@@ -2,18 +2,16 @@
 
 * {
     font-family: 'Quicksand', sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(167, 176, 190);
 }
 
 .imgDiv .pic {
-    width: 100vw;
-    margin: 50px;
- }
-
-.pic {
-    margin: 0 auto;
-    object-fit: cover;
+    width: 30vw;
     height: 60vh;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 35px;
+    object-fit: contain;
     border-radius: 50%;
 }
 
@@ -24,9 +22,9 @@
 
 nav {
     width: 100%;
-
-    height: 50px;
+    height: 35px;
     position: fixed;
+    border-bottom: 1px solid greenyellow;
 }
   
 nav > ul {
@@ -40,14 +38,15 @@ nav > ul {
 }
   
 nav > ul > li {
-    color: #dfdfe2;
+    color: black;
     margin: 0 0.2rem;
     padding: 0.2rem;
     display: block;
 }
   
 nav > ul > li:hover {
-    background-color: #dfdfe2;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
     color: #1b1b32;
     cursor: pointer;
 }
@@ -59,6 +58,7 @@ li > a {
 
 #projects h2 {
     text-align: center;
+    margin-top: 50px;
 }
 
 .project-div {
@@ -138,16 +138,10 @@ li > a {
     .nav {
         padding: 11px;
     }
-    .imgDiv {
-        margin: 50px;
-    }
 }
 @media (max-width: 360px) {
     .project-div {
         margin-top: 2rem !important;
         justify-content: space-evenly;
-    }
-    .imgDiv {
-        margin: 50px;
     }
 }
