@@ -9,7 +9,7 @@ function App() {
                 </ul>
             </nav>
             <div className="welcome text-center container" id="welcome">
-                <div>
+                <div className="imgDiv">
                     <img className="pic" src="./picture.jpg" alt="" />
                 </div>
                 <h1>Welcome!</h1>
