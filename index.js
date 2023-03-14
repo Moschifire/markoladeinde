@@ -20,6 +20,16 @@ function App() {
                 <h2>Projects</h2>
                 <div className="project-div">
                     <div className="project">
+                        <h4>Blog App</h4>
+                        <p>This app was created using create-react-app. It is a react project that is meant to simulate a blog. Users are able to navigate between different blog posts.</p>
+                        <a href="https://blog-lake-six.vercel.app/" className="btn btn-primary" target="_blank">Click here to visit</a>
+                    </div>
+                    <div className="project">
+                        <h4>Spotify Clone</h4>
+                        <p>This app was created using create-react-app. It is a react project that is meant to clone the spotify music streaming application. The app was delpoyed with vercel.</p>
+                        <a href="https://spotify-clone-moschifire.vercel.app/" className="btn btn-primary" target="_blank">Click here to visit</a>
+                    </div>
+                    <div className="project">
                         <h4>Shopping Cart</h4>
                         <p>This project is a shopping cart created with HTML, CSS and JavaScript. It is an ECommerce website where users can buy alcohol, check the cart content and checkout.</p>
                         <a href="https://booze.vercel.app/" className="btn btn-primary" target="_blank">Click here to visit</a>
