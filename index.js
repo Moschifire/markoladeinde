@@ -20,6 +20,11 @@ function App() {
                 <h2>Projects</h2>
                 <div className="project-div">
                     <div className="project">
+                        <h4>Recipe Finder</h4>
+                        <p>This app was created using create-react-app. It is a react project that is meant to search for and return recipes. It returns data from edamam's recipe search API</p>
+                        <a href="https://recipe-finder-rho.vercel.app/" className="btn btn-primary" target="_blank">Click here to visit</a>
+                    </div>
+                    <div className="project">
                         <h4>Blog App</h4>
                         <p>This app was created using create-react-app. It is a react project that is meant to simulate a blog. Users are able to navigate between different blog posts.</p>
                         <a href="https://blog-lake-six.vercel.app/" className="btn btn-primary" target="_blank">Click here to visit</a>
